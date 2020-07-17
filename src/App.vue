@@ -19,8 +19,10 @@ export default {
 </script>
 
 <style>
+
 body {
   background-color: #fffae8;
+  --accent-color: #690e0e;
 }
 #app {
   font-family: serif, Georgia;
@@ -37,9 +39,15 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 220px;
-  border: 15px solid #690e0e;
+  border: 15px solid var(--accent-color);
 }
 
+.fade-enter-active, .fade-leave-active {
+  transition: opacity 0.25s ease-out;
+}
 
+.fade-enter, .fade-leave-to {
+  opacity: 0;
+}
 
 </style>
