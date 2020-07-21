@@ -3,29 +3,32 @@
     <h1>{{ msg }}</h1>
     <h3>Computer Engineering student at the University of Michigan</h3>
   
-    <h3>Please feel free to take a look at my <a href="../static/Rachel-Connolly-Resume.pdf" download="assets.zip">Resume</a>.</h3>
+    <p>Please feel free to take a look at my <a href="./Rachel-Connolly-Resume.pdf" target="_blank">Resume</a>.</p>
 
 
     <div class="links">
 
       <a href="https://github.com/rachcon" target="_blank" rel="noopener" >
-        <img v-bind:class="bounce" class="icon" @mouseover="hoverOver()" @mouseout="hoverOut()" alt= "Github" src= "../assets/GitHub-Logo.png">
+        <img v-bind:class="bounce" class="icon" @mouseover="hoverOver()" @mouseout="hoverOut()" alt= "Github: @rachcon" src= "../assets/GitHub-Logo.png">
       </a>
 
       <a href="https://www.linkedin.com/in/rachel-connolly-0797b9193/" target="_blank" rel="noopener">
         <img v-bind:class="bounce" class="icon" @mouseover="hoverOver()" @mouseout="hoverOut()" alt= "Linkedin" src= "../assets/linkedin-black.png">
       </a>
 
-      <a href="" target="_blank" rel="noopener">
-        <img v-bind:class="bounce" class="icon" @mouseover="hoverOver()" @mouseout="hoverOut()" alt= "Email" src= "../assets/emaili-icon.png">
+      <a v-bind:href="`mailto:` + 'rachcon@umich.edu'" target="_blank" rel="noopener">
+        <img v-bind:class="bounce" class="icon" @mouseover="hoverOver()" @mouseout="hoverOut()" alt= "Email: rachcon@umich.edu" src= "../assets/emaili-icon.png">
       </a>
 
       <a href="https://www.instagram.com/noflashtravel" target="_blank" rel="noopener">
-        <img v-bind:class="bounce" class="icon" @mouseover="hoverOver()" @mouseout="hoverOut()" alt= "Instagram" src= "../assets/glyph-logo.png">
+        <img v-bind:class="bounce" class="icon" @mouseover="hoverOver()" @mouseout="hoverOut()" alt= "Instagram: @noflashtravel" src= "../assets/glyph-logo.png">
       </a>
 
     </div>
 
+    <footer>
+        <p class="left-align">&copy; Rachel Connolly 2020</p>
+    </footer>
 
   </div>
 </template>
@@ -94,6 +97,13 @@ a {
   display: inline;
   flex-wrap: flex;
 }
+
+footer {
+  text-align: left;
+  border: 4px;
+  display: block;
+}
+
 front-page {
 
   margin: 0 auto;

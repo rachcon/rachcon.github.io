@@ -21,8 +21,8 @@ export default {
 <style>
 
 body {
-  background-color: #fffae8;
-  --accent-color: #690e0e;
+  background-color: #ffe8fb73;
+  --accent-color: #7c1b1bf6;
 }
 #app {
   font-family: serif, Georgia;
@@ -33,7 +33,7 @@ body {
   margin-top: 60px;
 }
 .profile {
-  border-radius: 50%;
+  border-radius: 10%;
   display: block;
   margin-top: 30px;
   margin-left: auto;
