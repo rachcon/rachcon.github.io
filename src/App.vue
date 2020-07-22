@@ -22,7 +22,7 @@ export default {
 
 body {
   background-color: #ffe8fb73;
-  --accent-color: #7c1b1bf6;
+  --accent-color: #4b0547f6;
 }
 #app {
   font-family: serif, Georgia;
@@ -30,17 +30,25 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #502c2c;
-  margin-top: 60px;
+  margin-top: 2%;
+  min-height: 95vh;
+ 
+  position: relative;
+}
+#content-wrap {
+  padding-bottom: 2.5rem;    /* Footer height */
 }
 .profile {
-  border-radius: 10%;
+  border-radius: 15%;
   display: block;
   margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
-  width: 220px;
+  width: 15%;
   border: 15px solid var(--accent-color);
 }
+
+
 
 .fade-enter-active, .fade-leave-active {
   transition: opacity 0.25s ease-out;

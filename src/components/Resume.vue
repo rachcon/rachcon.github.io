@@ -1,9 +1,13 @@
 <template>
   <div class="front-page">
     <h1>{{ msg }}</h1>
-    <h3>Computer Engineering student at the University of Michigan</h3>
-  
-    <p>Please feel free to take a look at my <a href="./Rachel-Connolly-Resume.pdf" target="_blank">Resume</a>.</p>
+    <h3>Computer Engineering junior at the University of Michigan</h3>
+
+    <p class="description">I am passionate about embedded systems engineering and general 
+      software development, and am interested in a related summer internship to gain industry experience. 
+      I studied abroad in France during the spring 2020 term pursuing my international minor.</p>
+    
+    <p class="punchline">Please feel free to take a look at my <a href="./Rachel-Connolly-Resume.pdf" target="_blank">Resume</a>.</p>
 
 
     <div class="links">
@@ -81,27 +85,41 @@ a {
   color: var(--accent-color);
   font-weight: bold;
 }
+.description {
+  padding-right: 20%;
+  padding-left: 20%;
+}
 
+.punchline {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
 .icon {
   width: 2.5%;
   padding:1%;
   margin: 20px 0 0 0;
 }
+/*
 .icon:hover{
-  width: 3%;
+  width: 2.8%;
   margin: 0 0 0 0;
 }
-
+*/
 .links {
   align-content: center;
   display: inline;
   flex-wrap: flex;
+  padding: 1%;
 }
 
 footer {
+  position: absolute;
+  bottom: 1%;
   text-align: left;
-  border: 4px;
+  height: 2.5rem;
+  padding: 1%;
   display: block;
+  color: var(--accent-color);
 }
 
 front-page {
