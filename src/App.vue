@@ -41,7 +41,7 @@ body {
 .profile {
   border-radius: 15%;
   display: block;
-  margin-top: 30px;
+  margin-top: 4%;
   margin-left: auto;
   margin-right: auto;
   width: 15%;
