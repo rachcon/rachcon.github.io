@@ -1,0 +1,75 @@
+[33mcommit 643696237dba0d60de381fa7bea32a0ca7ce76c6[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: rachcon <rachcon@umich.edu>
+Date:   Fri Sep 4 12:57:13 2020 -0400
+
+    preparing to launch gh pages
+
+[33mcommit 8183dd4b64bbcba2aac7dbb0b09f668769acd1ce[m
+Merge: 001fe74 f31f8a6
+Author: rachcon <rachcon@umich.edu>
+Date:   Wed Jul 22 00:27:44 2020 -0400
+
+    lodash errors resolved
+
+[33mcommit 001fe74f1453960f341d2f32b5fc3609225b12c1[m
+Author: rachcon <rachcon@umich.edu>
+Date:   Wed Jul 22 00:22:26 2020 -0400
+
+    file order restored
+
+[33mcommit f31f8a672a6cefa1b4474645f8898926c8a57f6c[m
+Merge: 8440594 0b2112c
+Author: Rachel Connolly <44854154+rachcon@users.noreply.github.com>
+Date:   Wed Jul 22 00:00:11 2020 -0400
+
+    Merge pull request #1 from rachcon/dependabot/npm_and_yarn/lodash-4.17.19
+    
+    Bump lodash from 4.17.15 to 4.17.19
+
+[33mcommit 84405943c487790bcbf5c1aacaf4881156fdfaaa[m
+Author: rachcon <rachcon@umich.edu>
+Date:   Tue Jul 21 23:55:28 2020 -0400
+
+    moved files
+
+[33mcommit c8cc754b2d756d338c8a251b9e2f09b46aab1780[m
+Author: rachcon <rachcon@umich.edu>
+Date:   Tue Jul 21 20:13:34 2020 -0400
+
+    bio added, hover animations removed
+
+[33mcommit 23fff1897bcb44f6f82c404de848defeb48db675[m
+Author: rachcon <rachcon@umich.edu>
+Date:   Tue Jul 21 16:56:50 2020 -0400
+
+    resume pdf and email link are functionalls!
+
+[33mcommit 15ed14241ea073288212ab92c31b982d45cf74d5[m
+Author: rachcon <rachcon@umich.edu>
+Date:   Fri Jul 17 17:23:04 2020 -0400
+
+    added static animations, stuck on dynamic functions
+
+[33mcommit 0b2112c6994f9fb218e12d6e9b27037cdcdd6dd9[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Thu Jul 16 06:47:24 2020 +0000
+
+    Bump lodash from 4.17.15 to 4.17.19
+    
+    Bumps [lodash](https://github.com/lodash/lodash) from 4.17.15 to 4.17.19.
+    - [Release notes](https://github.com/lodash/lodash/releases)
+    - [Commits](https://github.com/lodash/lodash/compare/4.17.15...4.17.19)
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+[33mcommit 7418d80d7f0f3350b6559c644d3dc72679fb79ab[m
+Author: rachcon <rachcon@umich.edu>
+Date:   Thu Jul 16 01:43:17 2020 -0400
+
+    add all files
+
+[33mcommit e2ac4aa02015e781126cc12c7fe369c267e7be5e[m
+Author: rachcon <rachcon@umich.edu>
+Date:   Thu Jul 16 01:09:23 2020 -0400
+
+    initial
