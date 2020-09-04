@@ -3,9 +3,13 @@
     <h1>{{ msg }}</h1>
     <h3>Computer Engineering junior at the University of Michigan</h3>
 
-    <p class="description">I am passionate about embedded systems engineering and general 
-      software development, and am interested in a related summer internship to gain industry experience. 
-      I studied abroad in France during the spring 2020 term pursuing my international minor.</p>
+    <p class="description">Hi, Welcome to my page! I am passionate about embedded systems and backend 
+      software engineering, and am seeking a summer 2021 internship. 
+      I studied abroad in France during the spring 2020 term pursuing my international minor, 
+      and learned Vue.js and HTML/CSS when creating this site over the summer. 
+      I work for the University of Michigan EECS Department as an instructional aide for a programming 
+      and data structures course. In my free time I enjoy landscape photography, painting 
+      landscapes with acrylics, and throwing on the pottery wheel.</p>
     
     <p class="punchline">Please feel free to take a look at my <a href="./Rachel-Connolly-Resume.pdf" target="_blank">Resume</a>.</p>
 
@@ -31,7 +35,7 @@
     </div>
 
     <footer>
-        <p class="left-align">&copy; Rachel Connolly 2020</p>
+        <p class="left-align">&copy; Rachel Connolly 2020, created with <a href="https://vuejs.org">Vue.js</a>.</p>
     </footer>
 
   </div>
@@ -86,8 +90,8 @@ a {
   font-weight: bold;
 }
 .description {
-  padding-right: 20%;
-  padding-left: 20%;
+  padding-right: 15%;
+  padding-left: 15%;
 }
 
 .punchline {
@@ -97,12 +101,12 @@ a {
 .icon {
   width: 40px;
   padding: 10px;
-  margin: 10px 20px 0 0;
+  margin: 10px 20px 50px 0;
 }
 
 .icon:hover{
   width: 45px;
-  margin: 0 15px 0 0;
+  margin: 0 15px 50px 0;
 }
 
 .links {
@@ -113,8 +117,8 @@ a {
 }
 
 footer {
-  position: absolute;
   bottom: 1%;
+  position: absolute;
   text-align: left;
   height: 2.5rem;
   padding: 1%;

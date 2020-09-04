@@ -22,7 +22,7 @@ export default {
 
 body {
   background-color: #ffe8fb73;
-  --accent-color: #4b0547f6;
+  --accent-color: rgb(92, 16, 88);
 }
 #app {
   font-family: serif, Georgia;
