@@ -16,7 +16,7 @@
         <img v-bind:class="bounce" class="icon" @mouseover="hoverOver()" @mouseout="hoverOut()" alt= "Github: @rachcon" src= "../assets/GitHub-Logo.png">
       </a>
 
-      <a href="https://www.linkedin.com/in/rachel-connolly-0797b9193/" target="_blank" rel="noopener">
+      <a href="https://www.linkedin.com/in/rachcon/" target="_blank" rel="noopener">
         <img v-bind:class="bounce" class="icon" @mouseover="hoverOver()" @mouseout="hoverOut()" alt= "Linkedin" src= "../assets/linkedin-black.png">
       </a>
 
@@ -95,16 +95,16 @@ a {
   font-size: 1.1rem;
 }
 .icon {
-  width: 2.5%;
-  padding:1%;
-  margin: 20px 0 0 0;
+  width: 40px;
+  padding: 10px;
+  margin: 10px 20px 0 0;
 }
-/*
+
 .icon:hover{
-  width: 2.8%;
-  margin: 0 0 0 0;
+  width: 45px;
+  margin: 0 15px 0 0;
 }
-*/
+
 .links {
   align-content: center;
   display: inline;
@@ -120,6 +120,7 @@ footer {
   padding: 1%;
   display: block;
   color: var(--accent-color);
+  font-size: 12px;
 }
 
 front-page {

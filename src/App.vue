@@ -44,8 +44,8 @@ body {
   margin-top: 4%;
   margin-left: auto;
   margin-right: auto;
-  width: 15%;
-  border: 15px solid var(--accent-color);
+  width: 200px;
+  border: 12px solid var(--accent-color);
 }
 
 
